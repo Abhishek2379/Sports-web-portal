@@ -1,0 +1,250 @@
+home2 .buli-table {
+    margin: 15px 0;
+    background: #fff;
+    position: relative;
+    display: block;
+    color: #151515;
+    font-size: 16px;
+    clear: both;
+}
+bundesliga.css:6
+.buli-table {
+    margin: 15px 0;
+    background: #fff;
+    position: relative;
+    display: block;
+    color: #151515;
+    font-size: 16px;
+    clear: both;
+}
+bundesliga.css:1
+.panel {
+    margin-bottom: 22px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+bundesliga.css:1
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from div#tableWrapper.home2.DFL-SEA-0001K1
+bundesliga.css:6
+.home2 {
+    padding: 0;
+    font-size: 16px;
+    line-height: 22px;
+}
+Inherited from body#body.ng-scope
+bundesliga.css:1
+body {
+    font-family: "DFLWeb",Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.42857;
+    color: #151515;
+    background-color: #f5f5f5;
+}
+Inherited from html.js.canvas.no-touch.hashchange.websockets.backgroundsize.borderradius.boxshadow.textshadow.cssanimations.cssgradients.csstransitions.fontface.localstorage.placeholder
+bundesliga.css:1
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+bundesliga.css:1
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::before element
+bundesliga.css:6
+.home2 .buli-table:before, .home2 .buli-table:after {
+    content: " ";
+    display: table;
+}
+bundesliga.css:6
+.buli-table:before, .buli-table:after {
+    content: " ";
+    display: table;
+}
+bundesliga.css:1
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+bundesliga.css:6
+.home2 .buli-table:after {
+    clear: both;
+}
+bundesliga.css:6
+.home2 .buli-table:before, .home2 .buli-table:after {
+    content: " ";
+    display: table;
+}
+bundesliga.css:6
+.buli-table:after {
+    clear: both;
+}
+bundesliga.css:6
+.buli-table:before, .buli-table:after {
+    content: " ";
+    display: table;
+}
+bundesliga.css:1
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+..home2 .buli-table .table tbody tr {
+    width: 100%;
+    height: 39px;
+}
+bundesliga.css:6
+.home2 .buli-table .table tbody tr {
+    cursor: pointer;
+}
+bundesliga.css:6
+.home2 .buli-table .live {
+    -webkit-animation: pulse 2s infinite;
+    -moz-animation: pulse 2s infinite;
+    -o-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+}
+bundesliga.css:6
+.buli-table .table tbody tr {
+    width: 100%;
+    height: 39px;
+}
+bundesliga.css:6
+.buli-table .table tbody tr {
+    cursor: pointer;
+}
+bundesliga.css:6
+.buli-table .live {
+    -webkit-animation: pulse 2s infinite;
+    -moz-animation: pulse 2s infinite;
+    -o-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+}
+bundesliga.css:1
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+Inherited from table.table.table-hover
+bundesliga.css:6
+.home2 .buli-table .table {
+    margin: 0;
+    text-align: right;
+}
+bundesliga.css:6
+.buli-table .table {
+    margin: 0;
+    text-align: right;
+}
+bundesliga.css:1
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from div.panel.buli-table
+bundesliga.css:6
+.home2 .buli-table {
+    margin: 15px 0;
+    background: #fff;
+    position: relative;
+    display: block;
+    color: #151515;
+    font-size: 16px;
+    clear: both;
+}
+bundesliga.css:6
+.buli-table {
+    margin: 15px 0;
+    background: #fff;
+    position: relative;
+    display: block;
+    color: #151515;
+    font-size: 16px;
+    clear: both;
+}
+Inherited from div#tableWrapper.home2.DFL-SEA-0001K1
+bundesliga.css:6
+.home2 {
+    padding: 0;
+    font-size: 16px;
+    line-height: 22px;
+}
+Inherited from body#body.ng-scope
+bundesliga.css:1
+body {
+    font-family: "DFLWeb",Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.42857;
+    color: #151515;
+    background-color: #f5f5f5;
+}
+Inherited from html.js.canvas.no-touch.hashchange.websockets.backgroundsize.borderradius.boxshadow.textshadow.cssanimations.cssgradients.csstransitions.fontface.localstorage.placeholder
+bundesliga.css:1
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+bundesliga.css:1
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::before element
+bundesliga.css:1
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+bundesliga.css:1
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@keyframes pulse
+bundesliga.css:6
+0% {
+    background-color: inherit;
+}
+bundesliga.css:6
+50% {
+    background-color: #d5fcce;
+}
+bundesliga.css:6
+100% {
+    background-color: inherit;
+}

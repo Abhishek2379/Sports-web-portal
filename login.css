@@ -1,0 +1,22 @@
+.back{
+    background-color: whitesmoke;
+    color: whitesmoke;
+}
+
+div{
+    align-content: center;
+    background-color: white;
+    height: 2000px;
+    width: 2000px;
+
+}
+
+
+pl{
+    color: white;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-decoration: none;
+    background-color: white

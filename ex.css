@@ -1,0 +1,166 @@
+.space{
+	padding-left: 50px;
+}
+
+.club-slider-wrapper {
+    background: #fff;
+    clear: both;
+    margin: 15px -15px;
+	padding-right: -20;
+}
+
+.club-slider-wrapper .owl-nav{
+	display:none !important;
+}
+@media (min-width: 968px){
+.fixed-fixtures {
+    display: none;
+}
+}
+@media (max-width: 968px){
+#livebox{
+display: none;
+}
+}
+
+@media (max-width: 968px){
+.fixed-fixtures {
+    background-color: #fff;
+    border-top: 1px solid #e9e9e9;
+    bottom: 0;
+    display: block;
+    height: 90px;
+    position: fixed;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: 20;
+}
+.fixed-fixtures .divider {
+    background-color: #c3c3c3;
+    bottom: 0;
+    height: 44px;
+    margin: 0 0 -13px;
+    width: 1px;
+}
+.fixed-fixtures.is-hidden {
+    bottom: -90px;
+    transition: all 0.3s ease 0s;
+}
+.fixed-fixtures.is-hidden .livebox-scores__view-all {
+    bottom: -60px;
+    transition: all 0.3s ease 0s;
+}
+.fixed-fixtures-wrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    overflow: hidden;
+    padding: 0 15px;
+    position: relative;
+}
+.fixed-fixtures .owl-item {
+    display: inline-block;
+}
+.fixed-fixtures .livebox-scores__list-match {
+    height: 60px;
+    width: 105px;
+}
+.fixed-fixtures .livebox-scores__list-match .game-info {
+    background-color: #f4f4f4;
+    color: #000;
+    display: block;
+    padding: 15px 5px 5px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.fixed-fixtures .livebox-scores__list-match .game-info i {
+    vertical-align: -4px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.fixed-fixtures .livebox-scores__list-match .game-info-date {
+    display: block;
+    width: 100%;
+    height: 15px;
+    margin: 10px 0 5px 0;
+    font-size: 11px;
+    text-align: left;
+    background-color: #fff;
+}
+.fixed-fixtures .livebox-scores__list-match .game-info-links__live {
+    display: none;
+}
+.fixed-fixtures .livebox-scores__list-match.is-live .game-info-links__live {
+    background-color: #c80a00;
+    border-radius: 3px;
+    color: #ffffff;
+    display: block;
+    font-size: 8px;
+    left: 39%;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 5px;
+    width: 22px;
+}
+.fixed-fixtures .livebox-scores__list-match.is-last .game-info-date, .fixed-fixtures .livebox-scores__list-match.is-first .game-info-date {
+    background-color: #fff;
+    display: block;
+    font-size: 11px;
+    height: 15px;
+    margin: 10px 0 5px;
+    text-align: left;
+    width: 100%;
+}
+.fixed-fixtures .livebox-scores__view-all {
+    background-color: #c80a00;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    bottom: 14px;
+    color: #fff;
+    font-size: 13px;
+    height: 60px;
+    max-width: 80px;
+    padding: 13px 0;
+    position: absolute;
+    right: 14px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+.fixed-fixtures .livebox-scores__view-all:hover {
+    background-color: #950700;
+    text-decoration: none;
+}
+.fixed-fixtures progress, .fixed-fixtures progress[role] {
+    -moz-appearance: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-size: auto auto;
+    border-color: -moz-use-text-color -moz-use-text-color #c3c3c3;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 0px;
+    color: #c80a00;
+    display: block;
+    height: 3px;
+    margin-top: 0;
+    width: 100%;
+}
+.fixed-fixtures progress[role]::after {
+    background-image: none;
+}
+.fixed-fixtures progress[role] strong {
+    display: none;
+}
+.fixed-fixtures progress::-moz-progress-bar {
+    background-color: #c80a00 !important;
+}
+.fixed-fixtures progress {
+    color: #c80a00 !important;
+}
+
+
+}
+

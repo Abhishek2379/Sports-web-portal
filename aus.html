@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ACB | coldstar</title>
+    <link rel="stylesheet" href="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-beta.1.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="cricket.css" />
+    <link rel="icon" href="cricColdstar.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <!navbar scroll!>
+    <script>
+        (function ($) {
+            $(document).ready(function () {
+                $(".navscroll").hide();
+                $(function () {
+                    $(window).scroll(function () {
+
+                        if ($(this).scrollTop() > 1680) {
+                            $('.navscroll').fadeIn();
+                        }
+                        else {
+                            $('.navscroll').fadeOut();
+                        }
+                    });
+                });
+            });
+        }(jQuery));
+    </script>
+    <!This is for media query of nav bar!>
+
+
+</head>
+
+<body>
+
+
+
+    <header>
+        <div>
+            <!Original NAvbar!>
+            <nav class="navbar navbar-expand-md bg-primary navbar-light border border-info">
+                <div>
+                    <li id="dropbtn" class="nav-bar-link" style="color:crimson">
+                        <h2>coldstar</h2>
+                    </li>
+                </div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="dropdown">
+                        <a href="https://www.icc-cricket.com/live-cricket/live">
+                            <li class="nav-bar-link" id="dropbtn">Live Matches</li>
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <li id="dropbtn" class="nav-bar-link">International Teams</li>
+                        <div class="dropdown-content">
+                            <a href="#">India</a>
+                            <a href="#">Australia</a>
+                            <a href="#">South Africa</a>
+                            <a href="#">England</a>
+                            <a href="#">West Indies</a>
+                            <a href="#">Pakistan</a>
+                            <a href="#">New Zealand</a>
+                            <a href="http://www.tigercricket.com.bd/">Bangladesh</a>
+                            <a href="#">Sri Lanka</a>
+                            <a href="#">Associate Nations of ICC</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li id="dropbtn" class="nav-bar-link">Domestic Teams</li>
+                        <div class="dropdown-content">
+                            <a href="http://www.iplt20.com/">Indian Premier League</a>
+                            <a href="http://www.bigbash.com.au/">Big Bash</a>
+                            <a href="https://www.ecb.co.uk/county-championship">County</a>
+                            <a href="http://www.tigercricket.com.bd/">Bangladesh Premier League</a>
+                            <a href="http://www.cplt20.com/">Carrbbean Premier League</a>
+                            <a href="https://psl-t20.com/">Pakistan Super League</a>
+                            <a href="http://www.bcci.tv/ranji-trophy-2016-17/overview">Ranji (India)</a>
+                            <a href="http://cricket.co.za/tournament/270/Ram-Slam-T20-Challenge">Ram-Slam-T20-Challenge(South Africa)Sunfoil series</a>
+                            <a href="http://cricket.co.za/item/17598/T20GlobalLeague">Global T20 League</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="https://www.icc-cricket.com/mens-schedule/list">
+                            <li id="dropbtn" class="nav-bar-link">Upcoming Matches</li>
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <li id="dropbtn" class="nav-bar-link">More</li>
+                        <div class="dropdown-content">
+                            <a href="https://www.icc-cricket.com/rankings/mens/overview">ICC Rankings(Men)</a>
+                            <a href="https://www.icc-cricket.com/rankings/womens/overview">ICC Rankings(Women)</a>
+                            <a href="https://www.icc-cricket.com/">ICC Official</a>
+                            <a href="https://www.icc-cricket.com/">Historical Matches</a>
+                            <a href="https://www.icc-cricket.com/">Hall of Fame</a>
+
+                        </div>
+                    </div>
+
+
+            </nav>
+
+
+            <!Tp navbar!>
+
+
+            <nav style="position:fixed" class="navscroll navbar navbar-expand-md bg-primary navbar-light border border-info">
+                <div>
+                    <li id="dropbtn" class="nav-bar-link" style="color:crimson">
+                        <h2>coldstar</h2>
+                    </li>
+                </div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="dropdown">
+                        <a href="https://www.icc-cricket.com/live-cricket/live">
+                            <li class="nav-bar-link" id="dropbtn">Live Matches</li>
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <li id="dropbtn" class="nav-bar-link">International Teams</li>
+                        <div class="dropdown-content">
+                            <a href="#">India</a>
+                            <a href="#">Australia</a>
+                            <a href="#">South Africa</a>
+                            <a href="#">England</a>
+                            <a href="#">West Indies</a>
+                            <a href="#">Pakistan</a>
+                            <a href="#">New Zealand</a>
+                            <a href="http://www.tigercricket.com.bd/">Bangladesh</a>
+                            <a href="#">Sri Lanka</a>
+                            <a href="#">Associate Nations of ICC</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li id="dropbtn" class="nav-bar-link">Domestic Teams</li>
+                        <div class="dropdown-content">
+                            <a href="http://www.iplt20.com/">Indian Premier League</a>
+                            <a href="http://www.bigbash.com.au/">Big Bash</a>
+                            <a href="https://www.ecb.co.uk/county-championship">County</a>
+                            <a href="http://www.tigercricket.com.bd/">Bangladesh Premier League</a>
+                            <a href="http://www.cplt20.com/">Carrbbean Premier League</a>
+                            <a href="https://psl-t20.com/">Pakistan Super League</a>
+                            <a href="http://www.bcci.tv/ranji-trophy-2016-17/overview">Ranji (India)</a>
+                            <a href="http://cricket.co.za/tournament/270/Ram-Slam-T20-Challenge">Ram-Slam-T20-Challenge(South Africa)Sunfoil series</a>
+                            <a href="http://cricket.co.za/item/17598/T20GlobalLeague">Global T20 League</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="https://www.icc-cricket.com/mens-schedule/list">
+                            <li id="dropbtn" class="nav-bar-link">Upcoming Matches</li>
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <li id="dropbtn" class="nav-bar-link">More</li>
+                        <div class="dropdown-content">
+                            <a href="https://www.icc-cricket.com/rankings/mens/overview">ICC Rankings(Men)</a>
+                            <a href="https://www.icc-cricket.com/rankings/womens/overview">ICC Rankings(Women)</a>
+                            <a href="https://www.icc-cricket.com/">ICC Official</a>
+                            <a href="https://www.icc-cricket.com/">Historical Matches</a>
+                            <a href="https://www.icc-cricket.com/">Hall of Fame</a>
+
+                        </div>
+                    </div>
+
+            </nav>
+            </div>
+    </header>
+    <div>
+        <center>
+            <h2><b>Cricket Australia</b></h2>
+            <hr color="blue" width="45%" size="20px" style="background-color: green">
+        </center>
+    </div>
+    <div>
+        <center>
+            <img src="assets/aus.png" height="125" width="0100" />
+            <img src="assets/aus1.svg" height="100" width="0165" />
+        </center>
+    </div>
+
+    <br/><br/>
+    <h3><b>History</b></h3>
+    <div class="container">
+        <p>Cricket has been played in Australia for over 210 years. The first recorded cricket match in Australia took place
+            in Sydney in December 1803 and a report in the Sydney Gazette on 8 January 1804 suggested that cricket was already
+            well established in the infant colony. Intercolonial cricket in Australia started with a visit by cricketers
+            from Victoria to Tasmania in February 1851. The match was played in Launceston on 11–12 February with Tasmania
+            winning by 3 wickets. The first tour by an English team to Australia was in 1861–62, organised by the catering
+            firm of Spiers and Pond as a private enterprise. A further tour followed in 1863–64, led by George Parr and was
+            even more successful than the last.</p>
+        <p><b> Don Bradman, born in Cootamundra and raised in Bowral was 20 when he made his Test debut in the first Test of the 1928–29 series against England. He would hold the records for the highest individual Test innings and the most centuries in Test cricket and when he retired in 1948 he had the highest Test batting average, the last a record he still holds. He scored 117 first class centuries, still the only Australian to score a century of centuries and was knighted for services to cricket.</b></p>
+        <p>
+            The Bodyline controversy began when Bradman toured England with the Australian team in 1930. Bradman scored heavily, 974
+            runs at an average of 139.14 including a then world record 334 at Leeds, two other double centuries and another
+            single. Watching these displays of batting was Douglas Jardine, playing for Surrey. Following discussions with
+            other observers such as Percy Fender and George Duckworth, he developed a tactic to limit the prodigious run
+            scoring of Bradman and the others. The tactic, originally called fast leg theory and later called bodyline involved
+            fast short pitched bowling directed at the batsman's body and a packed leg side field. Appointed captain of England
+            for the 1932–33 series in Australia, Jardine was able to put these theories into practice. Combined with bowlers
+            of the speed and accuracy of Harold Larwood and Bill Voce, the tactic required batsmen to risk injury in order
+            to protect their wicket. In the third Test in Adelaide, Larwood struck Australian captain Bill Woodfull above
+            the heart and fractured wicket-keeper Bert Oldfield's skull.</p><br/>
+
+        <p>The 1970s saw players and administrators once again come into conflict. Poor scheduling saw Australia visit South
+            Africa immediately after a tour to India in 1969–70. This would be the last tour to South Africa prior to the
+            application of international sporting sanctions designed to oppose the policy of apartheid. The tired Australians
+            came across a very strong South African team in conditions vastly different from the subcontinent, and were subsequently
+            beaten 4–0. A request by the Australian Cricket Board for the players to play a further match in South Africa
+            was met with resistance by the players, led by the captain, Bill Lawry. During the following home series against
+            England, Lawry was sacked as captain and replaced by the South Australian batsman, Ian Chappell. Lawry remains
+            the only Australian captain to be sacked in the middle of a Test series. Chappell, part of a younger and more
+            assertive generation, saw the board's treatment of Lawry as disgraceful and made a pledge to never allow himself
+            to be placed in the same situation</p><br/>
+        <p>The most successful leg spin bowler in the history of the game, <b>Shane Warne,</b> made his debut in 1991–92 in
+            the third Test against India at the Sydney Cricket Ground. He had an undistinguished Test debut, taking 1/150
+            off 45 overs, and recording figures of 1/228 in his first Test series. From this modest beginning, <b><i>Warne dominated Australian
+            cricket for 15 years, taking 708 wickets at an average of 25.41.</i></b> When the fast medium bowler, Glenn McGrath
+            was first selected in the Australian team for the Perth test against New Zealand in 1993–94.</p><br/>
+
+    </div>
+
+    <h3><b>Recent Success</b></h3>
+    <div class="container">
+        <p>A rehabilitated <b>Ponting</b> would succeed Waugh as captain in 2004. While injured for most of the 2004–05 series
+            against India, his team under acting captain Adam Gilchrist defeated India in India, the first Australian series
+            win in India since Bill Lawry's team in 1969–70. A 2–1 defeat in the 2005 Ashes series in England was quickly
+            avenged at home with a 5–0 thrashing of England in 2006–07.<i> The whitewash was the first in an Ashes series since Warwick
+            Armstrong's team in 1920–21.</i> Following the series, the successful bowling combination of McGrath and Warne
+            retired from Test cricket, with a record that was hard to match.</p><br/>
+        <p><b> Australia won the 2007 Cricket World Cup under
+            Ricky Ponting in the Caribbean and were unbeaten through the tournament. Australian cricketer Matthew Hayden
+            scored the most runs in the tournament.</b><i> The finals happened to be Glenn McGrath's last match and he was also
+            the highest wicket taker of the tournament and the player of the tournament.</i> </p><br/>
+        <p>The 2015 Cricket World Cup was jointly hosted by Australia and New Zealand from 14 February to 29 March 2015. Fourteen
+            teams played 49 matches in 14 venues, with Australia staging 26 games at grounds in Adelaide, Brisbane, Canberra,
+            Hobart, Melbourne, Perth and Sydney. Australia defeated New Zealand by 7 wickets to win their fifth ICC Cricket
+            World Cup in front of a record crowd of 93,013. The winning captain <b>Michael Clarke</b>, retired from ODIs
+            with immediate effect after the final match.</p><br/>
+    </div>
+
+
+    <h3><b>Top Performers</b></h3>
+    <div class="container" style="padding: 5px">
+        <div class="row">
+            <div class="column colm-m-4 colm-4">
+                <div class="card">
+                    <article class="media-item_yellow">
+                        <picture>
+                            <img class="media-item__img_int" src="assets/rk1.png" height="200" width="387">
+                            <img class="media-item__img" src="assets/rk.png" height="297px" width="297px" class="img-circle" style="z-index: 2">
+                        </picture>
+                        <div class="con">
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            <h3><b>Ricky Ponting</b></h3> 1989 - 2013
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p>Test</p>
+                                    </td>
+                                    <td>
+                                        <p>15921</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>ODI</p>
+                                    </td>
+                                    <td>
+                                        <p>18426</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>T20</p>
+                                    </td>
+                                    <td>
+                                        <p>10</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Career</p>
+                                    </td>
+                                    <td>
+                                        <p>2<sup>nd</sup>Rank</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Teams Played</p>
+                                    </td>
+                                    <td>
+                                        <p>Australia, Antigua Hawksbills, ICC World XI, Kolkata Knight Riders, Mumbai Indians,
+                                            Somerset, Surrey, Tasmania<br/><br/></p>
+                                    </td>
+                                </tr>
+                            </table><br/><br/>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="column colm-m-4 colm-4">
+                <div class="card">
+
+                    <article class="media-item_yellow">
+                        <picture>
+                            <img class="media-item__img_int" src="assets/sw1.png" style="z-index: 1">
+                            <img class="media-item__img" src="assets/sw.png" height="30px" width="30px" class="img-circle" style="z-index: 2">
+                        </picture>
+                        <div class="con">
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            <h3><b>Shane Warne</b></h3>1990 - 2008
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p>Test</p>
+                                    </td>
+                                    <td>
+                                        <p>619</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>ODI</p>
+                                    </td>
+                                    <td>
+                                        <p>337</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>T20</p>
+                                    </td>
+                                    <td>
+                                        <p>57</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Career</p>
+                                    </td>
+                                    <td>
+                                        <p>2<sup>nd</sup>Rank</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Teams Played</p>
+                                    </td>
+                                    <td>
+                                        <p> Australia, Hampshire, ICC World XI, Melbourne Stars, Rajasthan Royals, Rest of the
+                                            World XI, Victoria
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table><br/><br/><br/><br/>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+            <div class="column colm-m-4 colm-4">
+                <div class="card">
+                    <article class="media-item_yellow">
+                        <picture>
+                            <img class="media-item__img_int" src="assets/swa1.png" style="z-index: 1">
+                            <img class="media-item__img" src="assets/swa.png" height="30px" width="30px" class="img-circle" style="z-index: 2">
+                        </picture>
+                        <div class="con">
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            <h3><b>Shane Watson</b></h3>2005 - 2016
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p>Test</p>
+                                    </td>
+                                    <td>
+                                        <p>3731 75</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>ODI</p>
+                                    </td>
+                                    <td>
+                                        <p>5757 168</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>T20</p>
+                                    </td>
+                                    <td>
+                                        <p>5808 48</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Career</p>
+                                    </td>
+                                    <td>
+                                        <p>34124 909</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Teams Played</p>
+                                    </td>
+                                    <td>
+                                        <p>Australia, Hampshire, Islamabad United, New South Wales, Queensland, Rajasthan Royals,
+                                            Royal Challengers Bangalore, St Lucia Zouks, Sydney Sixers, Sydney Thunder, Tasmania<br/><br/></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h3><b>2017 Performers</b></h3>
+    <div class="container" style="padding: 5px">
+        <div class="row">
+            <div class="column colm-m-4 colm-4">
+                <div class="card">
+                    <article class="media-item_yellow">
+                        <picture>
+                            <img class="media-item__img_int" src="assets/dw1.png" height="200" width="387">
+                            <img class="media-item__img" src="assets/dw.png" height="297px" width="297px" class="img-circle" style="z-index: 2">
+                        </picture>
+                        <div class="con">
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            <h3><b>David Warner</b></h3> 2008 -
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p>Test</p>
+                                    </td>
+                                    <td>
+                                        <p>612</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>ODI</p>
+                                    </td>
+                                    <td>
+                                        <p>471</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>T20</p>
+                                    </td>
+                                    <td>
+                                        <p>-</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Teams Played</p>
+                                    </td>
+                                    <td>
+                                        <p>Australia, Australia A, Australia Under-19s, Delhi Daredevils, Durham, Middlesex,
+                                            New South Wales, Northern Districts, Sunrisers Hyderabad, Sydney Thunder</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br/><br/><br/>
+                        </div>
+                    </article>
+                </div>
+                <div class="card">
+                    <div class="media-item_yellow">
+                        <h3><b>Steve Smith</b></h3>
+                        <p>701 304 -
+                            <p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column colm-m-4 colm-4">
+                <div class="card">
+
+                    <article class="media-item_yellow">
+                        <picture>
+                            <img class="media-item__img_int" src="assets/nl1.png" style="z-index: 1">
+                            <img class="media-item__img" src="assets/nl.png" height="30px" width="30px" class="img-circle" style="z-index: 2">
+                        </picture>
+                        <div class="con">
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            <h3><b>Nathan Lyon</b></h3>2011 -
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p>Test</p>
+                                    </td>
+                                    <td>
+                                        <p>46</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>ODI</p>
+                                    </td>
+                                    <td>
+                                        <p>-</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>T20</p>
+                                    </td>
+                                    <td>
+                                        <p>-</p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <p>Teams Played</p>
+                                    </td>
+                                    <td>
+                                        <p> Australia, Adelaide Strikers, Australia A, Australian Capital Territory, Australian
+                                            Capital Territory Under-17s, Australian Capital Territory Under-19s, New South
+                                            Wales, South Australia, Sydney Sixers</p>
+                                    </td>
+                                </tr>
+                            </table><br/><br/>
+                        </div>
+                    </article>
+                </div>
+                <div class="card">
+                    <div class="media-item_yellow">
+                        <h3><b>Josh Hazelwood</b></h3>
+                        <p>16 19 -
+                            <p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column colm-m-4 colm-4">
+                <div class="card">
+                    <article class="media-item_yellow">
+                        <picture>
+                            <img class="media-item__img_int" src="assets/jf1.png" style="z-index: 1">
+                            <img class="media-item__img" src="assets/jf.png" height="30px" width="30px" class="img-circle" style="z-index: 2">
+                        </picture>
+                        <div class="con">
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            <h3><b>James Faulkner</b></h3>2012 -
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p>Test</p>
+                                    </td>
+                                    <td>
+                                        <p>- -</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>ODI</p>
+                                    </td>
+                                    <td>
+                                        <p>- 12</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>T20</p>
+                                    </td>
+                                    <td>
+                                        <p>- 5</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Points</td>
+                                    <td>298</td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <p>Teams Played</p>
+                                    </td>
+                                    <td>
+                                        <p>Australia, Australia A, Australia Under-19s, Gujarat Lions, Kings XI Punjab, Lancashire,
+                                            Launceston, Melbourne Stars, Pune Warriors, Rajasthan Royals, Tasmania, Tasmania
+                                            Second XI, Tasmania Under-19s</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+                    </article>
+                </div>
+                <div class="card">
+                    <div class="media-item_yellow">
+                        <h3><b>Mitchell Starc</b></h3>
+                        <p>Points 306
+                            <p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<br/><br/>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="colm-4 colm-m-4">
+        <center><h5><b>OFFICIAL BROADCASTERS</b></h5>
+        <img src="assets/9.svg" height="105" width="125" />
+        </center>
+    </div>
+    <div class="colm-4 colm-m-4">
+        <center><h5><b>TEAM SPONSERS</b></h5>
+        <img src="assets/qantas.png" height="105" width="125" />
+        </center>
+    </div>
+    <div class="colm-4 colm-m-4">
+        <center><h5><b>KIT SPONSERS</b></h5>
+        <img src="assets/acer.png" height="105" width="125" />
+        </center>
+    </div>
+    </div>
+        </div>
+<br/><br/>
+
+
+    <footer style="background-color: #0C0A3E">
+        <div class="row">
+            <div class="column colm-m-6 colm-3" class="remove_link">
+                <h4 style="color: white" style="padding: 4, 0, 0, 5"> &nbsp; &nbsp;Cricket ColdStar</h4>
+                <br/> &nbsp; &nbsp; &nbsp;
+                <img src="cricColdstar.png" height="200" width="200" class="image_cd" />
+                <br/>
+                <a href="http://www.cricket.com.au/">
+                    <h3 style="color: white" style="padding: 4, 0, 0, 5"> &nbsp;&nbsp;&nbsp;&nbsp;CA</h3>
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/cricketcomau" target="_blank"><img src="assets/fb.png" class="img-circle" alt="Facebook" width="58" height="58" /></a>
+                <a href="https://twitter.com/cricketaus" target="_blank"><img src="assets/twitter.png" class="img-circle" alt="Twitter" width="58" height="58" /></a>
+            </div>
+
+            <div class="column colm-m-6 colm-3">
+                <br/><br/><br/>
+                <h4 style="color:whitesmoke">&nbsp;&nbsp;&nbsp;&nbsp;Quick Links</h4>
+                <br/><br/>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">Home</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">Football</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">Kabaddi</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">F1</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">Hockey</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">Cricket</a></p>
+            </div>
+
+
+
+            <div class="column colm-m-6 colm-3">
+                <br/><br/><br/>
+                <h4 style="color:whitesmoke">&nbsp;&nbsp;&nbsp;&nbsp;Contact</h4>
+                <br/><br/>
+
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="about-us.html" style="color:antiquewhite">About Us</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="shoppy.html" style="color:antiquewhite">Sports Shop</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.bcci.tv/" style="color:antiquewhite">BCCI</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="about-us.html" style="color:antiquewhite">Members</a></p>
+
+            </div>
+
+            <div class="column colm-m-6 colm-3">
+                <br/><br/><br/>
+                <h4 style="color:whitesmoke">&nbsp;&nbsp;&nbsp;&nbsp;Others</h4>
+                <br/><br/>
+
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">Feedback</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.hotstar.com/sports/cricket" style="color:antiquewhite">Broadcast Sponsers</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.icc-cricket.com/hall-of-fame" style="color:antiquewhite">Hall of Fame</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.bcci.tv/about/2017/bcci-rules-regulations" style="color:antiquewhite">BCCI Rules and Regulations</a></p>
+
+            </div>
+
+        </div>
+        <br/>
+        <br/>
+        <h4 style="color:bisque">&copyColdStarCricket &copySaiprasad M Rai 2017: All Rights Are Reserved</h4>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BCCI | coldstar</title>
+    <link rel="stylesheet" href="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-beta.1.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="cricket.css" />
+    <link rel="icon" href="cricColdstar.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <!navbar scroll!>
+    <script>
+        (function ($) {
+            $(document).ready(function () {
+                $(".navscroll").hide();
+                $(function () {
+                    $(window).scroll(function () {
+
+                        if ($(this).scrollTop() > 1680) {
+                            $('.navscroll').fadeIn();
+                        }
+                        else {
+                            $('.navscroll').fadeOut();
+                        }
+                    });
+                });
+            });
+        }(jQuery));
+    </script>
+    <!This is for media query of nav bar!>
+
+
+</head>
+
+<body>
+
+
+
+    <header>
+        <div>
+            <!Original NAvbar!>
+            <nav class="navbar navbar-expand-md bg-primary navbar-light border border-info">
+                <div>
+                    <li id="dropbtn" class="nav-bar-link" style="color:crimson">
+                        <h2>coldstar</h2>
+                    </li>
+                </div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="dropdown">
+                        <a href="https://www.icc-cricket.com/live-cricket/live">
+                            <li class="nav-bar-link" id="dropbtn">Live Matches</li>
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <li id="dropbtn" class="nav-bar-link">International Teams</li>
+                        <div class="dropdown-content">
+                            <a href="#">India</a>
+                            <a href="#">Australia</a>
+                            <a href="#">South Africa</a>
+                            <a href="#">England</a>
+                            <a href="#">West Indies</a>
+                            <a href="#">Pakistan</a>
+                            <a href="#">New Zealand</a>
+                            <a href="http://www.tigercricket.com.bd/">Bangladesh</a>
+                            <a href="#">Sri Lanka</a>
+                            <a href="#">Associate Nations of ICC</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li id="dropbtn" class="nav-bar-link">Domestic Teams</li>
+                        <div class="dropdown-content">
+                            <a href="http://www.iplt20.com/">Indian Premier League</a>
+                            <a href="http://www.bigbash.com.au/">Big Bash</a>
+                            <a href="https://www.ecb.co.uk/county-championship">County</a>
+                            <a href="http://www.tigercricket.com.bd/">Bangladesh Premier League</a>
+                            <a href="http://www.cplt20.com/">Carrbbean Premier League</a>
+                            <a href="https://psl-t20.com/">Pakistan Super League</a>
+                            <a href="http://www.bcci.tv/ranji-trophy-2016-17/overview">Ranji (India)</a>
+                            <a href="http://cricket.co.za/tournament/270/Ram-Slam-T20-Challenge">Ram-Slam-T20-Challenge(South Africa)Sunfoil series</a>
+                            <a href="http://cricket.co.za/item/17598/T20GlobalLeague">Global T20 League</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="https://www.icc-cricket.com/mens-schedule/list">
+                            <li id="dropbtn" class="nav-bar-link">Upcoming Matches</li>
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <li id="dropbtn" class="nav-bar-link">More</li>
+                        <div class="dropdown-content">
+                            <a href="https://www.icc-cricket.com/rankings/mens/overview">ICC Rankings(Men)</a>
+                            <a href="https://www.icc-cricket.com/rankings/womens/overview">ICC Rankings(Women)</a>
+                            <a href="https://www.icc-cricket.com/">ICC Official</a>
+                            <a href="https://www.icc-cricket.com/">Historical Matches</a>
+                            <a href="https://www.icc-cricket.com/">Hall of Fame</a>
+
+                        </div>
+                    </div>
+
+
+            </nav>
+
+
+            <!Tp navbar!>
+
+
+            <nav style="position:fixed" class="navscroll navbar navbar-expand-md bg-primary navbar-light border border-info">
+                <div>
+                    <li id="dropbtn" class="nav-bar-link" style="color:crimson">
+                        <h2>coldstar</h2>
+                    </li>
+                </div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="dropdown">
+                        <a href="https://www.icc-cricket.com/live-cricket/live">
+                            <li class="nav-bar-link" id="dropbtn">Live Matches</li>
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <li id="dropbtn" class="nav-bar-link">International Teams</li>
+                        <div class="dropdown-content">
+                            <a href="#">India</a>
+                            <a href="#">Australia</a>
+                            <a href="#">South Africa</a>
+                            <a href="#">England</a>
+                            <a href="#">West Indies</a>
+                            <a href="#">Pakistan</a>
+                            <a href="#">New Zealand</a>
+                            <a href="http://www.tigercricket.com.bd/">Bangladesh</a>
+                            <a href="#">Sri Lanka</a>
+                            <a href="#">Associate Nations of ICC</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li id="dropbtn" class="nav-bar-link">Domestic Teams</li>
+                        <div class="dropdown-content">
+                            <a href="http://www.iplt20.com/">Indian Premier League</a>
+                            <a href="http://www.bigbash.com.au/">Big Bash</a>
+                            <a href="https://www.ecb.co.uk/county-championship">County</a>
+                            <a href="http://www.tigercricket.com.bd/">Bangladesh Premier League</a>
+                            <a href="http://www.cplt20.com/">Carrbbean Premier League</a>
+                            <a href="https://psl-t20.com/">Pakistan Super League</a>
+                            <a href="http://www.bcci.tv/ranji-trophy-2016-17/overview">Ranji (India)</a>
+                            <a href="http://cricket.co.za/tournament/270/Ram-Slam-T20-Challenge">Ram-Slam-T20-Challenge(South Africa)Sunfoil series</a>
+                            <a href="http://cricket.co.za/item/17598/T20GlobalLeague">Global T20 League</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="https://www.icc-cricket.com/mens-schedule/list">
+                            <li id="dropbtn" class="nav-bar-link">Upcoming Matches</li>
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <li id="dropbtn" class="nav-bar-link">More</li>
+                        <div class="dropdown-content">
+                            <a href="https://www.icc-cricket.com/rankings/mens/overview">ICC Rankings(Men)</a>
+                            <a href="https://www.icc-cricket.com/rankings/womens/overview">ICC Rankings(Women)</a>
+                            <a href="https://www.icc-cricket.com/">ICC Official</a>
+                            <a href="https://www.icc-cricket.com/">Historical Matches</a>
+                            <a href="https://www.icc-cricket.com/">Hall of Fame</a>
+
+                        </div>
+                    </div>
+
+            </nav>
+            </div>
+    </header>
+<div>
+    <center>
+        <h2><b>Board of Control For Cricket In India</b></h2>
+        <hr color="blue" width="45%" size="20px" style="background-color: #3366ff">
+    </center>
+    </div>
+<div>
+    <center>
+        <img src="assets/bcci.png" height="100" width="0100" />
+        <img src="assets/indiafl.png" height="100" width="0165" />
+        </center>
+</div>
+
+    <br/><br/>
+    <h3><b>History</b></h3>
+    <div class="container">
+        <p>It was sometime in 1721 that a British ship dropped anchor off the coast of Kutch in western India. The recreational
+            activities the sailors indulged in on the coast elicited curious reactions from onlookers. One of the sailors,
+            who answered to the name of Downing, recalled his time on the Kutch coast in his memoirs thus: <i>"We everyday diverted
+        ourselves with playing cricket and other exercises" </i></p><br/><b>This is the earliest recorded reference to cricket in India.</b>
+        <p>As the merchants metamorphosed into rulers, they continued to demonstrate their recreational pursuits on Indian soil.
+            The British army took on the English settlers in what was the first recorded cricket match in India in 1751.
+            The establishment of<b> the Calcutta Cricket Club (what we know today as CC & FC)</b> in 1792, was another watershed
+            for the sport in the land. In fact, it is the second-oldest cricket club in the world, after the MCC (1787).</p><br/>
+        <p>Cricket was also gaining in popularity in other cities at around the same time. 1884 was an eventful year, in that
+            a team from Sri Lanka played a match in Kolkata.</p><br/><b><i> It was the country's first shot at international cricket.</i></b>
+        <p>
+            The Parsi Gymkhana was set up in Mumbai in the same year. A year later, Kolkata hosted a match between the Presidency Club
+            and a team from<b> Australia. </b></p>
+        <p>The relative economic stability of the Parsis was instrumental in their sending a team on a tour of England in 1886.
+            Dr. D.H. Patel, one of the leading cricketers of the time, was named captain.</p><br/>
+        <p>Gilligan was one of the active participants in a meeting in Delhi in February 1927. The Maharaja of Patiala, a British
+            businessman named Grant Govan, and Anthony De Mello were the other attendees. Gilligan expressed his praise of
+            Indian cricket, and promised to press for India's inclusion in the ICC, if all the promoters of cricket in the
+            land came together to establish a single controlling body. Govan, Patiala and De Mello in turn assured Gilligan
+            that they would do their bit. They convened a meeting in Delhi on 21st November 1927,which was attended by around
+            forty-five delegates. These comprised cricket representatives from Sind, Punjab, Patiala, Delhi, the United Provinces,
+            Rajputana, Alwar, Bhopal, Gwalior, Baroda, Kathiawar and Central India. There was a consensus that a Board of
+            Cricket Control was essential to ensure the following: Advance and control th</p><br/>
+        <p>The country's unexpected triumph in the World Cup in 1983 emboldened the BCCI to bid for the 1987 World Cup along
+            with its Pakistani counterpart. It was the first time anyone had even thought of staging the competition outside
+            England. The bid was upheld by the ICC, and the neighbours went on to stage a hugely successful event, the doubts
+            raised by cynics notwithstanding.</p><br/>
+
+    </div>
+
+    <h3><b>Recent Success</b></h3>
+    <div class="container">
+        <p>Along wih great success in almost all the formats the Board noticed great success in <b>2007 T20 World Cup</b> and
+            in <b>2011 World Cup</b></p><br/>
+        <p>Recently in 2013, Board witnessed <b>Victory in Champions Trophy</b> and Mahendra Singh Dhoni became the first captain
+            to achieve success in almost all forms of cricket.</p><br/>
+    </div>
+
+
+    <h3><b>Top Performers</b></h3>
+    <div class="container" style="padding: 5px">
+        <div class="row">
+            <div class="column colm-m-4 colm-4">
+                <div class="card">
+                        <article class="media-item_blue ">
+                            <picture>
+                                <img class="media-item__img_int" src="assets/sachin2.png" height="200" width="387">
+                                <img class="media-item__img" src="assets/sachin1.png" height="297px" width="297px" class="img-circle" style="z-index: 2">
+                            </picture>
+                            <div class="con">
+                                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                                <h3><b>Sachin Tendulkar</b></h3> 1989 - 2013
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p>Test</p>
+                                        </td>
+                                        <td><p>15921</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>ODI</p>
+                                        </td>
+                                        <td><p>18426</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>T20</p>
+                                        </td>
+                                        <td><p>10</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Career</p>
+                                        </td>
+                                        <td><p>1<sup>st</sup>Rank</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Teams Played</p>
+                                        </td>
+                                        <td><p>India, Mumbai Indians, Yorkshire, Asia XI<br/><br/></p></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                </div>
+            </div>
+
+            <div class="column colm-m-4 colm-4">
+                <div class="card">
+                    
+                        <article class="media-item_blue">
+                            <picture>
+                                <img class="media-item__img_int" src="assets/anil.png" style="z-index: 1">
+                                <img class="media-item__img" src="assets/anil1.png" height="30px" width="30px" class="img-circle" style="z-index: 2">
+                            </picture>
+                            <div class="con">
+                                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                                <h3><b>Anil Kumble</b></h3>1990 - 2008
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p>Test</p>
+                                        </td>
+                                        <td><p>619</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>ODI</p>
+                                        </td>
+                                        <td><p>337</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>T20</p>
+                                        </td>
+                                        <td><p>57</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Career</p>
+                                        </td>
+                                        <td><p>3<sup>rd</sup>Rank</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Teams Played</p>
+                                        </td>
+                                        <td><p>India, Asia XI, Karnataka, Leicestershire, Northamptonshire, Royal Challengers Bangalore, Surrey</p></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                    
+                </div>
+            </div>
+
+            <div class="column colm-m-4 colm-4">
+                <div class="card">
+                        <article class="media-item_blue">
+                            <picture>
+                                <img class="media-item__img_int" src="assets/kd.png" style="z-index: 1">
+                                <img class="media-item__img" src="assets/kd1.png" height="30px" width="30px" class="img-circle" style="z-index: 2">
+                            </picture>
+                            <div class="con">
+                                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                                <h3><b>Kapil Dev</b></h3>1978 - 1994
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p>Test</p>
+                                        </td>
+                                        <td><p>5248   434</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>ODI</p>
+                                        </td>
+                                        <td><p>3783   253</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>T20</p>
+                                        </td>
+                                        <td><p>-</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Career</p>
+                                        </td>
+                                        <td><p>25868   1857</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Teams Played</p>
+                                        </td>
+                                        <td><p>India, Haryana, Northamptonshire, Worcestershire<br/><br/></p></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<h3><b>2017 Performers</b></h3>
+<div class="container" style="padding: 5px">
+        <div class="row">
+            <div class="column colm-m-4 colm-4">
+                <div class="card">
+                        <article class="media-item_blue ">
+                            <picture>
+                                <img class="media-item__img_int" src="assets/vk1.png" height="200" width="387">
+                                <img class="media-item__img" src="assets/vkohli2.png" height="297px" width="297px" class="img-circle" style="z-index: 2">
+                            </picture>
+                            <div class="con">
+                                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                                <h3><b>Virat Kohli</b></h3> 2008 -
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p>Test</p>
+                                        </td>
+                                        <td><p>449</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>ODI</p>
+                                        </td>
+                                        <td><p>1017</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>T20</p>
+                                        </td>
+                                        <td><p>173</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Teams Played</p>
+                                        </td>
+                                        <td><p>India, Delhi, India Red, India Under-19s, Royal Challengers Bangalore</p></td>
+                                    </tr>
+                                </table>
+                                <br/><br/>
+                            </div>
+                        </article>
+                </div>
+                <div class="card">
+                    <div class="media-item_blue">
+                        <h3><b>Rohit Sharma</b></h3>
+                        <p> - 634 -<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column colm-m-4 colm-4">
+                <div class="card">
+                    
+                        <article class="media-item_blue">
+                            <picture>
+                                <img class="media-item__img_int" src="assets/rj1.png" style="z-index: 1">
+                                <img class="media-item__img" src="assets/rj.png" height="30px" width="30px" class="img-circle" style="z-index: 2">
+                            </picture>
+                            <div class="con">
+                                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                                <h3><b>Ravindra Jadeja</b></h3>2009 -
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p>Test</p>
+                                        </td>
+                                        <td><p>44</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>ODI</p>
+                                        </td>
+                                        <td><p>5</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>T20</p>
+                                        </td>
+                                        <td><p>-</p></td>
+                                    </tr>
+                                        
+                                    <tr>
+                                        <td>
+                                            <p>Teams Played</p>
+                                        </td>
+                                        <td><p>India, Chennai Super Kings, Gujarat Lions, India Under-19s, Kochi Tuskers Kerala, Rajasthan Royals, Saurashtra, West Zone</p></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                </div>
+                <div class="card">
+                    <div class="media-item_blue">
+                        <h3><b>Ravichandran Ashwin</b></h3>
+                        <p>44 3 -<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column colm-m-4 colm-4">
+                <div class="card">
+                        <article class="media-item_blue">
+                            <picture>
+                                <img class="media-item__img_int" src="assets/hp1.png" style="z-index: 1">
+                                <img class="media-item__img" src="assets/hp.png" height="30px" width="30px" class="img-circle" style="z-index: 2">
+                            </picture>
+                            <div class="con">
+                                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                                <h3><b>Hardik Pandya</b></h3>2016 -
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p>Test</p>
+                                        </td>
+                                        <td><p>178   4</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>ODI</p>
+                                        </td>
+                                        <td><p>346   19</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>T20</p>
+                                        </td>
+                                        <td><p>-</p></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>
+                                            <p>Teams Played</p>
+                                        </td>
+                                        <td><p>India, Baroda, India A, Mumbai Indians</p></td>
+                                    </tr>
+                                </table>
+                                <br/><br/>
+                            </div>
+                        </article>
+                </div>
+                   <div class="card">
+                    <div class="media-item_blue">
+                        <h3><b>Kedar Jadhav</b></h3>
+                        <p>- - -<p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <br/><br/>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="colm-4 colm-m-4">
+        <center><h5><b>OFFICIAL BROADCASTERS</b></h5>
+        <img src="assets/star.png" height="105" width="125" />
+        </center>
+    </div>
+    <div class="colm-4 colm-m-4">
+        <center><h5><b>TEAM SPONSERS</b></h5>
+        <img src="assets/oppo.png" height="105" width="125" />
+        </center>
+    </div>
+    <div class="colm-4 colm-m-4">
+        <center><h5><b>KIT SPONSERS</b></h5>
+        <img src="assets/nike.png" height="105" width="125" />
+        </center>
+    </div>
+    </div>
+        </div>
+<br/><br/>
+
+
+
+
+
+
+
+    <footer style="background-color: #0C0A3E">
+        <div class="row">
+            <div class="column colm-m-6 colm-3" class="remove_link">
+                <h4 style="color: white" style="padding: 4, 0, 0, 5"> &nbsp; &nbsp;Cricket ColdStar</h4>
+                <br/> &nbsp; &nbsp; &nbsp;
+                <img src="cricColdstar.png" height="200" width="200" class="image_cd" />
+                <br/>
+                <a href="http://www.bcci.tv/"><h3 style="color: white" style="padding: 4, 0, 0, 5"> &nbsp;&nbsp;&nbsp;&nbsp;BCCI</h3></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/IndianCricketTeam/" target="_blank"><img src="assets/fb.png" class="img-circle" alt="Facebook" width="58" height="58" /></a>
+                <a href="https://twitter.com/BCCI" target="_blank"><img src="assets/twitter.png" class="img-circle" alt="Twitter" width="58" height="58" /></a>
+                </div>
+
+            <div class="column colm-m-6 colm-3">
+                <br/><br/><br/>
+                <h4 style="color:whitesmoke">&nbsp;&nbsp;&nbsp;&nbsp;Quick Links</h4>
+                <br/><br/>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">Home</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">Football</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">Kabaddi</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">F1</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">Hockey</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">Cricket</a></p>
+            </div>
+
+
+
+            <div class="column colm-m-6 colm-3">
+                <br/><br/><br/>
+                <h4 style="color:whitesmoke">&nbsp;&nbsp;&nbsp;&nbsp;Contact</h4>
+                <br/><br/>
+
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="about-us.html" style="color:antiquewhite">About Us</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="shoppy.html" style="color:antiquewhite">Sports Shop</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.bcci.tv/" style="color:antiquewhite">BCCI</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="about-us.html" style="color:antiquewhite">Members</a></p>
+
+            </div>
+
+            <div class="column colm-m-6 colm-3">
+                <br/><br/><br/>
+                <h4 style="color:whitesmoke">&nbsp;&nbsp;&nbsp;&nbsp;Others</h4>
+                <br/><br/>
+
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color:antiquewhite">Feedback</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.hotstar.com/sports/cricket" style="color:antiquewhite">Broadcast Sponsers</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.icc-cricket.com/hall-of-fame" style="color:antiquewhite">Hall of Fame</a></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.bcci.tv/about/2017/bcci-rules-regulations" style="color:antiquewhite">BCCI Rules and Regulations</a></p>
+
+            </div>
+
+        </div>
+        <br/>
+        <br/>
+        <h4 style="color:bisque">&copyColdStarCricket &copySaiprasad M Rai 2017: All Rights Are Reserved</h4>
+    </footer>
+
+</body></html>
